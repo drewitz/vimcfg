@@ -1,0 +1,3 @@
+[submodule "vim-latex"]
+	path = vim-latex
+	url = git@github.com:drewitz/vim-latex.git
