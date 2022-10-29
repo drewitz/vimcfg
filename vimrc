@@ -74,3 +74,6 @@ let g:tex_flavor='latex'
 " catppuccin theme
 set termguicolors
 colorscheme catppuccin_mocha
+
+" highlight column 80
+set colorcolumn=80
