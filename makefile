@@ -4,7 +4,7 @@ install:
 	mkdir -p $(HOME)/.vim/ftplugin
 	mkdir -p $(HOME)/.vim/colors
 	cp -iv vimrc $(HOME)/.vimrc
-	for f in $(VIM-LATEX-DATA); do cp -irv vim-latex/$$f $(HOME)/.vim/; done
+	for f in $(VIM-LATEX-DATA); do cp -irvu vim-latex/$$f $(HOME)/.vim/; done
 	cp -iv ftplugin/* $(HOME)/.vim/ftplugin/
 	cp -iv catppuccin/colors/* $(HOME)/.vim/colors/
 
