@@ -1,3 +1,6 @@
 [submodule "vim-latex"]
 	path = vim-latex
 	url = git@github.com:drewitz/vim-latex.git
+[submodule "catppuccin"]
+	path = catppuccin
+	url = https://github.com/catppuccin/vim.git
