@@ -71,6 +71,8 @@ filetype indent on
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 
+let g:Tex_Env_exercise = "\\begin{exercise}[\\pts{<++>}]\<CR><++>\<CR>\\end{exercise}"
+
 " catppuccin theme
 set termguicolors
 colorscheme catppuccin_mocha
