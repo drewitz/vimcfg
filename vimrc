@@ -77,5 +77,8 @@ let g:Tex_Env_exercise = "\\begin{exercise}[\\pts{<++>}]\<CR><++>\<CR>\\end{exer
 set termguicolors
 colorscheme catppuccin_mocha
 
+" vim latex suite pdf viewer
+let g:Tex_ViewRule_pdf='evince'
+
 " highlight column 80
 set colorcolumn=80
